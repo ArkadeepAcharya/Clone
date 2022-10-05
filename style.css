@@ -7,6 +7,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
 
 .bold {
     font-weight: bold;
@@ -52,6 +58,10 @@ section {
 .card {
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
 }
 
 .card--image {
@@ -60,7 +70,10 @@ section {
     margin-bottom: 9px;
 }
 
-
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 .card--stats {
     display: flex;
@@ -71,7 +84,10 @@ section {
     height: 14px;
 }
 
-/* ADD */
+
+.card--price {
+    margin-top: auto;
+}
 
 .card--badge {
     position: absolute;
