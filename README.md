@@ -1,3 +1,4 @@
 # Clone
 This is a AirBnb clone that I am trying to make using react
-There is some issue with the CSS file please contribute to make it better
+There is some issue with the CSS file please contribute to make it better and add some more features
+
